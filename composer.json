@@ -1,0 +1,22 @@
+{
+    "name": "bagisto/laravel-aliexpress-dropship",
+    "license": "MIT",
+    "authors": [{
+        "name": "Jitendra Singh",
+        "email": "jitendra@webkul.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Dropship\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Dropship\\Providers\\DropshipServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
